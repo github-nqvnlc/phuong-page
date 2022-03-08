@@ -1,0 +1,14 @@
+.content>.grid>.grid__item {
+    animation: rotate5 1200ms ease-in-out infinite alternate-reverse both
+}
+@keyframes rotate5 {
+
+    0%,
+    100% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+}
